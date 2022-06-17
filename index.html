@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Fed Up</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"
+          ><img
+            src="images/My project.png"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Best in the City</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nostrum
+          minima ea rem laboriosam consequatur vitae eligendi cupiditate,
+          incidunt dolorem unde, dicta impedit fugiat quod quia, inventore
+          mollitia voluptatibus quos?
+        </p>
+      </div>
+    </section>
+
+    <!---------- carousel ----------->
+
+    <section class="slider-container">
+      <div class="blog-loader"></div>
+      <div class="container">
+        <div class="swiper card_slider">
+          <div class="swiper-wrapper">
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!---------- carousel ---------->
+
+    <!-------- footer ---------->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        aliquet turpis nulla, eleifend faucibus est<br />sollicitudin ut.
+        Maecenas ut venenatis ex, et dapibus purus.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+
+      <p>Copyright ©2022 Fed Up</p>
+    </section>
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/fetchBlogs.js"></script>
+    <script src="js/blogCard.js"></script>
+    <script src="js/renderBlogsToHomePageCarousel.js"></script>
+  </body>
+</html>

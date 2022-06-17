@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px 40px;
+    font-family: 'Poppins', sans-serif;
+    background: #fff3f3;
+}
+
+.container {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+form {
+    padding: 9em;
+    background: #fff;
+    border-radius: 1rem;
+}
+
+input {
+    width: 100%;
+    margin-top: 2px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: #000;
+    border: none;
+    width: 200px;
+    padding: 1rem;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+.form-error {
+    display: none;
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 2px;
+}
